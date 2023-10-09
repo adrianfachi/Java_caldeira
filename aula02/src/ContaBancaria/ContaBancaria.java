@@ -1,3 +1,5 @@
+package ContaBancaria;
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -53,10 +55,11 @@ public class ContaBancaria {
         }
     }
 
-    public void transferencia(double valor) {
-        if (horarioTransferenciaPermitido()) {
+    public void transferencia(double valor, ContaBancaria contaDestino) {
+        if (horarioTransferenciaPermitido() && saldo > valor) {
             this.saldo = this.saldo - valor;
             historicoTransacoes.add("Transferência efetuada no valor de " + valor);
+            contaDestino.deposito(valor);
         } else {
             System.out.println("Saldo insuficiente ou fora de horário");
         }

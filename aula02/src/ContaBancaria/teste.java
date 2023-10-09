@@ -1,3 +1,7 @@
+package ContaBancaria;
+
+import ContaBancaria.ContaBancaria;
+
 public class teste {
     public static void main(String[] args) {
         ContaBancaria adrian = new ContaBancaria("Adrian Fachi", "03533470008", "1", "Sicredi", "Ilópolis");
