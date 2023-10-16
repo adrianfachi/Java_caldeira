@@ -1,10 +1,10 @@
 package FigurasGeometricas;
 
-public class FigurasGeometricas {
+public abstract class FigurasGeometricas {
     protected double altura;
     protected double base;
     protected double raio;
     protected double lado;
 
-    public void calcularArea(){}
+    public abstract void calcularArea();
 }

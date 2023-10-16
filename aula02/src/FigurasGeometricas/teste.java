@@ -2,7 +2,7 @@ package FigurasGeometricas;
 
 public class teste {
     public static void main(String[] args) {
-        FigurasGeometricas circulo = new Retangulo(20, 12);
+        FigurasGeometricas circulo = new Circulo(20);
         circulo.calcularArea();
     }
 }

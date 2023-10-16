@@ -1,4 +1,5 @@
 package Tributacao;
 
-public interface Tributavel {
+public interface Tributavel{
+    double calculaTributos();
 }
