@@ -17,6 +17,7 @@ public class Main {
             System.out.println("Opção 3: exibir reservas");
             System.out.println("Opção 4: sair");
             System.out.println("Escolha uma opção: ");
+
             int menuNumero = scan.nextInt();
             switch (menuNumero) {
                 case 1:
