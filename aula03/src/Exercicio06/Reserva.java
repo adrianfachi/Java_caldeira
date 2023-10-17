@@ -17,11 +17,4 @@ public class Reserva {
         return nome + " reservou em " + local + " do dia " + dataEntrada + " até " + dataSaida;
     }
 
-    public void menu() {
-        System.out.println("-----------Menu-----------");
-        System.out.println("Opção 1: adicionar reserva");
-        System.out.println("Opção 2: cacelar reserva");
-        System.out.println("Opção 3: exibir reservas");
-        System.out.println("Opção 4: sair");
-    }
 }
