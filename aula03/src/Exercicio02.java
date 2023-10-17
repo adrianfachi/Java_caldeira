@@ -13,6 +13,7 @@ public class Exercicio02 {
             numeros.add(criaNumeros.nextInt(1,101));
         }
 
+
         System.out.println("Digite um número: ");
         if (numeros.contains(scanner.nextInt())){
             System.out.println("Você acertou, o número está entre os números");
